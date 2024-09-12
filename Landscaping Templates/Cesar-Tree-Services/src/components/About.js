@@ -35,7 +35,7 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About Us</h2>
             <h3 className='h3 mb-4'>
-              Welcome to Cesar Tree Service – Your Trusted Landscaping & Tree Service Experts in Richmond, VA!
+              Welcome to Cesar's Tree Services – Your Trusted Landscaping & Tree Service Experts in Richmond, VA!
             </h3>
             <p className='mb-6'>
             We provide expert landscaping and tree care services in the Richmond area, with a focus on quality and customer satisfaction. Our skilled team is dedicated to making your yard beautiful and safe. Contact us today for a free consultation!
