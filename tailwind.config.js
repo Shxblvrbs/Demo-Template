@@ -20,13 +20,16 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#B809C3',
+        accent: '#bb6226',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
+        site: "url('./assets/site-bg.png')",
+        banner: "url('./assets/bg-video.mp4')",
         services: "url('./assets/services.png')",
       },
+      backgroundSize: {
+        services: '90%',
+      }
     },
   },
   plugins: [],

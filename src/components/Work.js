@@ -7,6 +7,7 @@ import { fadeIn } from '../variants';
 import Img1 from '../assets/portfolio-img1.png';
 import Img2 from '../assets/portfolio-img2.png';
 import Img3 from '../assets/portfolio-img3.png';
+import { Link } from 'react-scroll';
 
 const Work = () => {
   return (
@@ -20,29 +21,44 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'
           >
+            {/* text */}
             <div>
               <h2 className='h2 leading-tight text-accent'>
-                My Latest <br /> Work.
+                Our Latest <br />
+                Work
               </h2>
-              <p className='max-w-sm mb-16'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
-                metus ac erat iaculis pretium. Nullam vel nibh pulvinar.
+              <p className='max-w-sm mb-8 lg:mb-16'>
+                Check out some photos and videos of our best work! For more, please visit our social pages.
               </p>
-              <button className='btn btn-sm'>View all projects</button>
+              <button className='btn btn-sm lg:mb-[88px]'>
+              <Link
+                to='contact'
+                activeClass='active'
+                smooth={true}
+                spy={true}
+                className=''
+              >
+                Contact Form
+              </Link>
+              </button>
             </div>
-            {/* img */}
+            {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+              {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              {/* img */}
               <img
                 className='group-hover:scale-125 transition-all duration-500'
                 src={Img1}
                 alt=''
               />
+              {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Gallery</span>
               </div>
+              {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Photos</span>
               </div>
             </div>
           </motion.div>
@@ -53,34 +69,42 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-10'
           >
-            {/* img */}
+            {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+              {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              {/* img */}
               <img
                 className='group-hover:scale-125 transition-all duration-500'
                 src={Img2}
                 alt=''
               />
+              {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Gallery</span>
               </div>
+              {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Videos</span>
               </div>
             </div>
-            {/* img */}
+            {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+              {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              {/* img */}
               <img
                 className='group-hover:scale-125 transition-all duration-500'
                 src={Img3}
                 alt=''
               />
+              {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Gallery</span>
               </div>
+              {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Designs</span>
               </div>
             </div>
           </motion.div>
