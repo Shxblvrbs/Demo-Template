@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         site: "url('./assets/site-bg.png')",
-        banner: "url('./assets/bg-video.mp4')",
+        // banner: "url('./assets/bg-video.mp4')",
         services: "url('./assets/services.png')",
       },
       backgroundSize: {

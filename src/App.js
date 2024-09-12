@@ -7,7 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import bgVideo from '/Java Full Stack/Demo Template/src/banner-video.mp4'
+import bgVideo from './banner-video.mp4'
 
 const App = () => {
   return (
