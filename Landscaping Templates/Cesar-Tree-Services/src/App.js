@@ -7,14 +7,16 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import bgVideo from './banner-video.mp4'
+import bgVideo from './banner-video.mp4';
 
 const App = () => {
   return (
-    <div className="">
-    <video className= "object-cover -z-[1] absolute brightness-[0.25]" src={bgVideo} loop muted />
+    <div>
+    <video className= "lg:visible invisible lg:-z-10 lg:object-cover absolute lg:brightness-[0.25]" src={bgVideo} autoPlay loop muted />
+    <div className="lg:bg-none bg-site bg-no-repeat bg-cover overflow-hidden">
       <Header />
       <Banner />
+    </div>
     <div className='mt-16 bg-site bg-no-repeat bg-cover overflow-hidden'>
       <Nav />
       <About />

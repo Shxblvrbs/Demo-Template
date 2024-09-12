@@ -29,7 +29,10 @@ module.exports = {
       },
       backgroundSize: {
         services: '90%',
-      }
+      },
+      zIndex: {
+        site: -2,
+      },
     },
   },
   plugins: [],
