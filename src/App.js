@@ -12,7 +12,7 @@ import bgVideo from './banner-video.mp4'
 const App = () => {
   return (
     <div className="">
-    <video className= "object-cover -z-[1] absolute brightness-[0.25]" src={bgVideo} autoPlay loop muted />
+    <video className= "object-cover -z-[1] absolute brightness-[0.25]" src={bgVideo} loop muted />
       <Header />
       <Banner />
     <div className='mt-16 bg-site bg-no-repeat bg-cover overflow-hidden'>
