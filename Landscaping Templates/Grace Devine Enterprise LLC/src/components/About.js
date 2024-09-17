@@ -74,7 +74,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +14438661805">Call Me For a Free Estimate!</a></button>
+              <button className='btn btn-lg'><a href="tel: +13015328371">Call Me For a Free Estimate!</a></button>
               <Link
                 to='services'
                 activeClass='active'

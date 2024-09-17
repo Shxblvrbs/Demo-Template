@@ -54,7 +54,7 @@ const Services = () => {
               Don't see a service? Call us anyways!
             </h3>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +14438661805">Call Today!</a></button>
+              <button className='btn btn-lg'><a href="tel: +13015328371">Call Today!</a></button>
               <Link
                 to='work'
                 activeClass='active'
