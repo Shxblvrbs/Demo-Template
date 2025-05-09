@@ -30,7 +30,7 @@ module.exports = {
       },
       backgroundSize: {
         services: '90%',
-        'site-sm': '175%',
+        'site-sm': '225%',
         'site-lg': '100%',
       },
       zIndex: {

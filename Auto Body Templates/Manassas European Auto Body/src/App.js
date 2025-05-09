@@ -13,11 +13,11 @@ const App = () => {
   return (
     <div>
     <video className= "lg:visible invisible lg:-z-10 lg:object-cover absolute lg:brightness-[0.25]" src={bgVideo} autoPlay loop muted />
-    <div className="lg:bg-none bg-site-sm lg:bg-site-lg lg:bg-no-repeat bg-repeat overflow-hidden bg-center">
+    <div className="lg:bg-none bg-site-sm md:bg-site-lg md:bg-no-repeat bg-repeat overflow-hidden bg-center">
       <Header />
       <Banner />
     </div>
-    <div className='-mt-1 lg:mt-16 bg-site-sm lg:bg-site-lg lg:bg-no-repeat bg-repeat overflow-hidden bg-center'>
+    <div className='-mt-1 md:mt-16 bg-site-sm md:bg-site-lg md:bg-no-repeat bg-repeat overflow-hidden bg-center'>
       <Nav />
       <About />
       <Services />
