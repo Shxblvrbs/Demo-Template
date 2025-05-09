@@ -23,13 +23,15 @@ module.exports = {
         accent: '#00ffff',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.png')",
+        'site-sm': "url('./assets/site-bg.png')",
+        'site-lg': "url('./assets/site-bg.png')",
         // banner: "url('./assets/bg-video.mp4')",
         services: "url('./assets/services.png')",
       },
       backgroundSize: {
         services: '90%',
-        site: '100%',
+        'site-sm': '175%',
+        'site-lg': '100%',
       },
       zIndex: {
         site: -2,
