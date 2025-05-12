@@ -35,45 +35,23 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About Us</h2>
             <h3 className='h3 mb-4'>
-              Welcome to Manassas European Autobody – Your Trusted European Autobody Experts in the DMV!
+              Precision. Craftsmanship. Trust.
             </h3>
             <p className='mb-6'>
-            At our European auto body shop, we specialize in everything from minor dents to full collision repairs. Our expert technicians deliver top-notch craftsmanship, personalized service, and a commitment to excellence. Whether you need paintwork, body repairs, or custom detailing, we've got you covered. Contact us today for a free estimate!            </p>
+            Manassas European Auto Body has been serving Northern Virginia, DC, and Maryland from the same location for over 30 years. Known as a staple in the community, we’re trusted for delivering high-quality European auto body repair with fast turnaround and fair pricing. From minor dents to full collision restorations, our certified technicians uphold the highest standards of craftsmanship and care — treating every vehicle like it’s their own.
+            </p>
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+              
               <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}
-                  +
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br />
-                  Experience
-                </div>
+                
               </div>
               <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={1000} duration={3} /> : null}
-                  +
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Projects <br />
-                  Completed
-                </div>
-              </div>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={900} duration={3} /> : null}
-                  +
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Satisfied <br />
-                  Clients
-                </div>
+                
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call Me For a Free Estimate!</a></button>
+              <button className='btn btn-lg'><a href="tel: +17033301594">Call For a Free Estimate</a></button>
               <Link
                 to='services'
                 activeClass='active'

@@ -10,27 +10,27 @@ import { Link } from 'react-scroll';
 // services data
 const services = [
   {
-    name: 'Collision Repair & Restoration',
+    name: 'Paint & Refreshing',
     description:
-      'Frame Straightening, Panel Replacement, Bumper Repair, Structural Repairs, Accident Damage Restoration, Aluminum and Steel Welding',
+      'Expert Paint Matching, Full Vehicle Repainting, Paintless Dent Repair (PDR), Custom Paint Jobs, Color Matching, Clear Coat Application',
     link: 'Learn more',
   },
   {
-    name: 'Paint & Refreshing',
+    name: 'Collision Repair',
     description:
-      'Full Vehicle Repainting, Scratch and Chip Touch-Ups, Paintless Dent Repair (PDR), Custom Paint Jobs, Color Matching, Clear Coat Application',
+      'Frame Straightening, Panel Replacement, Bumper Repair, Structural Repairs, Accident Damage, and Steel Welding',
     link: 'Learn more',
   },
   {
     name: 'Auto Body & Cosmetic Repairs',
     description:
-      'Dent and Ding Repair, Hail Damage Repair, Rust Removal and Prevention, Headlight Restoration, Body Panel Alignment, Trim and Molding Repairs',
+      'Dent and Ding Repair, Hail Damage Repair, Body Panel Alignment, Scratch Removal',
     link: 'Learn more',
   },
   {
-    name: 'Glass & Windshield Services',
+    name: 'and More',
     description:
-      'Windshield Replacement, Chip and Crack Repair, Side and Rear Window Replacement, Glass Leak Inspection and Sealing, Window Tinting, Rearview and Side Mirror Repair or Replacement',
+      '',
     link: 'Learn more',
   },
 ];
@@ -54,7 +54,7 @@ const Services = () => {
               Don't see a service? Call us anyways!
             </h3>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call Today!</a></button>
+              <button className='btn btn-lg'><a href="tel: +17033301594">Call For a Free Estimate</a></button>
               <Link
                 to='work'
                 activeClass='active'
@@ -93,15 +93,6 @@ const Services = () => {
                       </p>
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
-                      <a
-                        href='#'
-                        className='btn w-9 h-9 mb-[42px] flex justify-center items-center'
-                      >
-                        <BsArrowUpRight />
-                      </a>
-                      <a href='#' className='text-gradient text-sm'>
-                        {link}
-                      </a>
                     </div>
                   </div>
                 );

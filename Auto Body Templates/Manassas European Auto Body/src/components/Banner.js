@@ -68,8 +68,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 max-w-lg mx-auto lg:mx-0'
             >
-              Providing Auto Body expertise in DC, Maryland, and Virginia for 20+ years.
-            </motion.p>
+              Serving Northern Virginia, DC, and Maryland for over 30 years, we specialize in high-quality European auto body repair — with fast turnaround times and the best prices in the region. Whether it’s collision damage, paint restoration, or precision detailing, our certified technicians deliver craftsmanship that meets manufacturer standards — and exceeds expectations.            </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
               initial='hidden'
@@ -77,7 +76,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-10 lg:mb-14 mx-auto lg:mx-0'
             >
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call Me For a Free Estimate!</a></button>
+              <button className='btn btn-lg'><a href="tel: +17033301594">Call For a Free Estimate</a></button>
               {/* <Link
                 to='about'
                 activeClass='active'

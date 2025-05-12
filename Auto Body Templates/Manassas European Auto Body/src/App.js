@@ -11,13 +11,13 @@ import bgVideo from './banner-video.mp4';
 
 const App = () => {
   return (
-    <div>
-    <video className= "lg:visible invisible lg:-z-10 lg:object-cover absolute lg:brightness-[0.25]" src={bgVideo} autoPlay loop muted />
-    <div className="lg:bg-none bg-site-sm md:bg-site-lg md:bg-no-repeat bg-repeat overflow-hidden bg-center">
+    <div className="bg-site-sm md:bg-none">
+    <video className= "lg:visible invisible lg:-z-10 lg:object-cover fixed lg:brightness-[0.25]" src={bgVideo} autoPlay loop muted />
+    <div className="md:bg-none md:bg-no-repeat bg-repeat overflow-hidden bg-center">
       <Header />
       <Banner />
     </div>
-    <div className='-mt-1 md:mt-16 bg-site-sm md:bg-site-lg md:bg-no-repeat bg-repeat overflow-hidden bg-center'>
+    <div className='-mt-1 md:mt-16 bg-none md:bg-site-lg overflow-hidden'>
       <Nav />
       <About />
       <Services />
