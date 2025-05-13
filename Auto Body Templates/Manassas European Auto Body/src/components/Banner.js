@@ -77,7 +77,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-10 lg:mb-14 mx-auto lg:mx-0'
             >
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call For a Free Estimate</a></button>
+              <button className='btn btn-lg'><a href="tel: +17033301594">Call Today: (703) 330-1594</a></button>
               {/* <Link
                 to='about'
                 activeClass='active'

@@ -28,9 +28,9 @@ const services = [
     link: 'Learn more',
   },
   {
-    name: 'and More',
+    name: 'Don\'t see a service? Call us anyways!',
     description:
-      '',
+      'There\'s almost no problem we haven\'t seen — so if you don\'t see the service you need, call us anyway!',
     link: 'Learn more',
   },
 ];
@@ -49,21 +49,10 @@ const Services = () => {
             className='flex-1 lg:bg-services lg:bg-left-bottom bg-no-repeat mb-12 lg:mt-0'
           >
           
-            <h2 className='h2 text-accent mb-4'>What We Do</h2>
-            <h3 className='h3 max-w-[455px] mb-10 lg:mb-10'>
-              Don't see a service? Call us anyways!
-            </h3>
+            <h2 className='h2 text-accent mb-12'>Our Services</h2>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call For a Free Estimate</a></button>
-              <Link
-                to='work'
-                activeClass='active'
-                smooth={true}
-                spy={true}
-                className='cursor-pointer text-gradient btn-link'
-              >
-              See Pictures of Our Work
-              </Link>
+              <button className='btn btn-lg'><a href="tel: +17033301594">Call Today: (703) 330-1594</a></button>
+              
             </div>
           </motion.div>
           {/* services */}

@@ -21,7 +21,7 @@ video {
 .btn {
   background: linear-gradient(
     92.23deg,
-    #002882 21.43%,
+    #031E49 21.43%,
     #1463b3 50.63%,
     #028888 100%,
     #00ffff 117.04%
@@ -36,7 +36,7 @@ video {
     #00ffff 21.43%,
     #028888 50.63%,
     #1463b3 100%,
-    #002882 117.04%
+    #031E49 117.04%
   );
 }
 
@@ -47,7 +47,7 @@ video {
     #00ffff 21.43%,
     #028888 50.63%,
     #1463b3 100%,
-    #002882 117.04%
+    #031E49 117.04%
   );
 }
 
@@ -80,7 +80,7 @@ video {
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#00ffff] to-[#002882] font-bold font-primary hover:from-[#002882] hover:to-[#00ffff];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#00ffff] to-[#031E49] font-bold font-primary hover:from-[#031E49] hover:to-[#00ffff];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;

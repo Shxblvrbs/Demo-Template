@@ -4,8 +4,6 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 
-<script src="https://link.shabbydigital.com/js/form_embed.js"></script>
-
 const Contact = () => {
   return (
     <section className='mb-10 py-16 lg:section' id='contact'>
@@ -28,49 +26,32 @@ const Contact = () => {
               </h2>
             </div>
           </motion.div>
-          {/* form */}
-          <motion.form
+
+          {/* footer info block */}
+          <motion.div
             variants={fadeIn('left', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 border rounded-2xl flex flex-col gap-y-6 items-start mb-20'
+            className='flex-1 text-white flex flex-col justify-center gap-y-6 lg:pl-10 border rounded-2xl p-8 bg-black/20 backdrop-blur-md'
           >
-          <iframe
-          src="https://link.shabbydigital.com/widget/form/Hcx7W1M10ugkCQwLApqD"
-          className="w-full h-[800px] lg:w-[500px] lg:h-[800px] border-none lg:mt-6 lg:-mb-36 lg:ml-10 -mb-32 -mt-2"
-          // style="width:100%;height:100%;border:none;border-radius:4px"
-          id="inline-Hcx7W1M10ugkCQwLApqD" 
-          data-layout="{'id':'INLINE'}"
-          data-trigger-type="alwaysShow"
-          data-trigger-value=""
-          data-activation-type="alwaysActivated"
-          data-activation-value=""
-          data-deactivation-type="neverDeactivate"
-          data-deactivation-value=""
-          data-form-name="Intro Call Form"
-          data-height="427"
-          data-layout-iframe-id="inline-Hcx7W1M10ugkCQwLApqD"
-          data-form-id="Hcx7W1M10ugkCQwLApqD"
-          title="Intro Call Form"
-          >
-          </iframe>
-            {/* <input
-              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              placeholder='Your name'
-            />
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              placeholder='Your email'
-            />
-            <textarea
-              className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
-              placeholder='Your message'
-            ></textarea>
-            <button className='btn btn-lg'>Send Message</button> */}
-          </motion.form>
+            <div>
+              <h5 className='text-accent text-3xl font-semibold mb-1'>Phone</h5>
+              <p className="text-xl">+1 (703) 330-1594</p>
+            </div>
+            <div>
+              <h5 className='text-accent text-3xl font-semibold mb-1'>Email</h5>
+              <p className="text-xl">info@manassaseuropeanautobody.com</p>
+            </div>
+            <div>
+              <h5 className='text-accent text-3xl font-semibold mb-1'>Location</h5>
+              <p className="text-xl">8393 Euclid Ave, Manassas, VA 20111</p>
+            </div>
+            <div>
+              <h5 className='text-accent text-3xl font-semibold mb-1'>Hours</h5>
+              <p className="text-xl">Mon–Fri: 7:30am – 4:00pm<br />Sat: Closed<br />Sun: Closed</p>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
