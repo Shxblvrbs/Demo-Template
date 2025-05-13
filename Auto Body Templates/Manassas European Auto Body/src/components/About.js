@@ -51,7 +51,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call Today: (703) 330-1594</a></button>
+              <button className='btn btn-sm lg:btn-lg'><a href="tel: +17033301594">Call Today: (703) 330-1594</a></button>
             </div>
           </motion.div>
         </div>

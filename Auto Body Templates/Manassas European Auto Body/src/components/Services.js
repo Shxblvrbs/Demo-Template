@@ -51,7 +51,7 @@ const Services = () => {
           
             <h2 className='h2 text-accent mb-12'>Our Services</h2>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href="tel: +17033301594">Call Today: (703) 330-1594</a></button>
+              <button className='btn btn-sm lg:btn-lg'><a href="tel: +17033301594">Call Today: (703) 330-1594</a></button>
               
             </div>
           </motion.div>

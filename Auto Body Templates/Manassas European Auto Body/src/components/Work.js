@@ -30,7 +30,7 @@ const Work = () => {
               <p className='max-w-sm mb-8 lg:mb-16'>
                 Check out some photos and videos of our best work! For more, please visit our social pages.
               </p>
-              <button className='btn btn-lg lg:mb-[88px]'>
+              <button className='btn btn-sm lg:btn-lg lg:mb-[88px]'>
               <Link
                 to='contact'
                 activeClass='active'
