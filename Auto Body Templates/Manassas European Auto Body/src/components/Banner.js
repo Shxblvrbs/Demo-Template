@@ -49,8 +49,6 @@ const Banner = () => {
                   2000,
                   'Cosmetic',
                   2000,
-                  'Windshield',
-                  2000,
                   'Repair',
                   2000,
                 ]}
