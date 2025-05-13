@@ -68,7 +68,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 max-w-lg mx-auto lg:mx-0'
             >
-              Serving Northern Virginia, DC, and Maryland for over 30 years, we specialize in high-quality European auto body repair — with fast turnaround times and the best prices in the region. Whether it’s collision damage, paint restoration, or precision detailing, our certified technicians deliver craftsmanship that meets manufacturer standards — and exceeds expectations.            </motion.p>
+              Proudly serving Northern VA, DC & MD for 30+ years, we specialize in European auto body repair with fast turnaround and unbeatable prices. From collision damage to paint and detailing, our certified techs deliver top-tier craftsmanship that exceeds expectations.
+            </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
               initial='hidden'

@@ -38,7 +38,7 @@ const About = () => {
               Precision. Craftsmanship. Trust.
             </h3>
             <p className='mb-6'>
-            Manassas European Auto Body has been serving Northern Virginia, DC, and Maryland from the same location for over 30 years. Known as a staple in the community, we’re trusted for delivering high-quality European auto body repair with fast turnaround and fair pricing. From minor dents to full collision restorations, our certified technicians uphold the highest standards of craftsmanship and care — treating every vehicle like it’s their own.
+            For over 30 years, Manassas European Auto Body has proudly served Northern Virginia, Washington, DC, and Maryland — all from the same convenient location in Manassas. As a long-standing fixture in the community, we’ve built our reputation on trust, consistency, and a commitment to excellence in European auto body repair. Our team of certified technicians brings decades of combined experience to every job, whether it's a small dent, paint correction, or a complete collision restoration. We use manufacturer-approved techniques and high-quality materials to ensure every repair meets or exceeds factory standards. With a focus on fast turnaround times, fair pricing, and personalized service, we treat every vehicle with the same care and attention we would our own. At Manassas European Auto Body, your satisfaction — and your car’s performance and appearance — are always our top priorities.
             </p>
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
