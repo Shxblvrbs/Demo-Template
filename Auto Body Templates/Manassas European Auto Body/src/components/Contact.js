@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
             <div>
               <h5 className='text-accent text-3xl font-semibold mb-1'>Location</h5>
-              <p className="text-xl">8393 Euclid Ave, Manassas, VA 20111</p>
+              <p className="text-xl">8393 Euclid Ave, Unit F, Manassas, VA 20111</p>
             </div>
             <div>
               <h5 className='text-accent text-3xl font-semibold mb-1'>Hours</h5>
